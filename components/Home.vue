@@ -25,7 +25,7 @@
             </div>
 
             <div class="home_sectwo">
-                <img class="absolute" src="~/assets/images/vector.png">
+                <img class="absolute right-0" src="~/assets/images/vector.png">
                 <img src="~/assets/images/bank.png" alt="banking">
             </div>
         </div>

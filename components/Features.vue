@@ -1,7 +1,7 @@
 <template>
     <div id="features" class="pt-8">
         <div class="mainfeature">
-            <div class="aboutus_secone">
+            <div class="aboutus_secone mt-10 md:mt-0">
                 <img src="~/assets/images/feature.png" alt="features">
             </div>
 
@@ -22,7 +22,7 @@
             </div>
         </div>
 
-        <div class="mainfeature mt-36">
+        <div class="mainfeature2">
             <div class="aboutus_secone">
                 <h1 class="about_head">
                     Find a better card deal in few easy steps.
@@ -35,7 +35,7 @@
                 </a>
             </div>
 
-            <div class="aboutus_secone">
+            <div class="aboutus_secone mt-16">
                 <img src="~/assets/images/analysis.png" alt="analysis">
             </div>
         </div>

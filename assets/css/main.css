@@ -24,7 +24,7 @@ html{
 
 /* Header */
 .navbar{
-    @apply bg-dark fixed flex items-center z-50 justify-between left-0 top-0 md:px-[50px] p-[30px] w-full h-8
+    @apply bg-dark fixed flex items-center z-50 justify-between left-0 top-0 md:px-[50px] px-4 py-[30px] w-full h-8
 }
 .navlink_div{
     @apply md:flex md:items-center md:justify-between md:w-2/5 
@@ -34,7 +34,15 @@ html{
     @apply md:hidden relative
 }
 .mobilenavlink_div{
-  @apply absolute bg-black w-28 p-3 rounded-2xl items-center justify-center right-0
+  @apply absolute bg-gradient-to-br from-[#272727] to-[#11101D] w-28 p-3 rounded-2xl items-center justify-center right-0
+}
+.mobilenavlink_div-enter-active,
+.mobilenavlink_div-leave-active{
+    @apply transition opacity-100 duration-500
+}
+.mobilenavlink_div-enter,
+.mobilenavlink_div-leave-to{
+    @apply opacity-0
 }
 
 .sort{
@@ -89,26 +97,27 @@ html{
 
 /* AboutUs */
 .aboutus{
-    @apply w-full pt-10 my-28 flex items-center justify-between
+    @apply w-full pt-10 md:my-28 md:flex md:flex-row md:items-center md:justify-between
+     my-10
 }
 .aboutus_secone{
-    @apply w-47
+    @apply md:w-47 w-full
 }
 .about_head{
-    @apply text-5xl font-semibold leading-normal
+    @apply md:text-5xl text-3xl font-semibold leading-normal
 }
 .getstartedbtn{
-    @apply text-lg text-black font-medium px-7 py-4 mt-10 w-fit rounded-lg bg-gradient-to-br from-[#DEF9FA] to-[#7DE7EB]
+    @apply text-lg text-black font-medium md:px-7 px-4 py-2 md:py-4 mt-10 w-fit rounded-lg bg-gradient-to-br from-[#DEF9FA] to-[#7DE7EB]
 }
 .aboutus_sectwo{
-    @apply w-47
+    @apply md:w-47 w-full mt-10 md:mt-0
 }
 .about_feature{
     @apply flex items-center justify-between p-5 mb-2 rounded-2xl w-full hover:bg-gradient-to-br from-[#3d3c3c] to-[#11101D] 
     transition ease-in-out duration-1000
 }
 .feature_icon{
-    @apply bg-[#09977C1A] p-4 mr-3 rounded-full w-fit
+    @apply bg-[#09977C1A] md:p-4 p-2 w-20 rounded-full  mr-3  md:w-fit
 }
 .feature_head{
     @apply text-lg font-semibold
@@ -119,7 +128,12 @@ html{
 
 /* Features */
 .mainfeature{
-    @apply w-full flex items-center justify-between
+    @apply w-full flex md:flex-row items-center md:justify-between
+    flex-col-reverse justify-center
+}
+.mainfeature2{
+    @apply w-full md:flex md:flex-row items-center md:justify-between md:mt-36
+    mt-10
 }
 .store_btns{
     @apply w-fit mt-12 flex items-center justify-center
@@ -127,23 +141,24 @@ html{
 
 /* Solution */
 .solution{
-    @apply w-full flex items-center justify-between
+    @apply w-full md:flex md:flex-row items-center justify-between
 }
 .review{
-    @apply w-30 my-20 h-80 rounded-2xl p-10 flex flex-col justify-between
+    @apply w-full md:w-30 md:my-20 my-5 h-80 rounded-2xl p-10 flex flex-col justify-between
     hover:bg-gradient-to-br from-[#3d3c3c] to-[#11101D]
 }
 .review_profile{
     @apply w-fit flex items-center justify-between
 }
 .partners{
-    @apply w-11/12 h-20 my-0 mx-auto flex items-center justify-between
+    @apply w-11/12 h-20 my-0 mx-auto flex md:flex-nowrap flex-wrap items-center justify-between
 }
 .partners img{
-    @apply w-44
+    @apply md:w-44 w-28
 }
 .service{
-    @apply bg-gradient-to-br from-[#11101D] to-[#3d3c3c] rounded-2xl flex items-center justify-between p-20 my-32
+    @apply bg-gradient-to-br from-[#11101D] to-[#3d3c3c] rounded-2xl md:flex md:flex-row items-center justify-between md:p-20 md:my-32
+    p-5 my-16
 }
 
 /* Footer */
@@ -151,29 +166,32 @@ html{
     @apply w-full
 }
 .footer_secone{
-    @apply flex justify-between
+    @apply md:flex justify-between
 }
 .footer_logo{
-    @apply w-1/4
+    @apply md:w-1/4 w-full 
+}
+.footer_subdiv{
+    @apply flex md:w-[65%] w-full md:flex-nowrap flex-wrap justify-between
 }
 .links_div{
-    @apply w-fit px-2
+    @apply md:w-fit w-[45%] px-2 mt-10 md:mt-0
 }
 .links_div p{
-    @apply mb-2 text-lg font-medium
+    @apply mb-2 text-base md:text-lg font-medium
 }
 .links li a{
-    @apply text-lightgray hover:text-lightblue
+    @apply text-lightgray md:text-base text-sm hover:text-lightblue
 }
 .links li{
     @apply mb-2
 }
 .footer_sectwo{
-    @apply flex justify-between
+    @apply md:flex md:flex-row justify-between
 }
 .social{
-    @apply w-fit flex
+    @apply md:w-fit w-3/4 flex justify-between md:mx-0 my-5 mx-auto
 }
 .social a{
-    @apply ml-10
+    @apply md:ml-10
 }

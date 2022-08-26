@@ -6,12 +6,13 @@
                     <img class="w-[72px]" src="~/assets/images/footericon.svg" alt="icon">
                     <h1 class="text-3xl font-semibold">Hoo<span class="text-lightblue">Bank</span></h1>
                 </div>
-                <p class="text-lg mt-8 text-lightgray">
+                <p class="text-lg md:mt-8 mt-4 text-lightgray">
                     A new way to make the payments easy, reliable and secure.
                 </p>
             </div>
 
-            <div class="links_div">
+            <div class="footer_subdiv">
+                <div class="links_div">
                 <p>Useful Links</p>
                 <ul class="links">
                     <li><a href="#">Content</a></li>
@@ -39,6 +40,7 @@
                     <li><a href="#">Our Partner</a></li>
                     <li><a href="#">Become a Partner</a></li>
                 </ul>
+            </div>
             </div>
         </div>
 

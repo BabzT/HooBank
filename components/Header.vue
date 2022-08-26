@@ -9,12 +9,14 @@
                 <span v-if="open" class="material-symbols-rounded sort">sort</span>
                 <span v-else class="material-symbols-rounded text-4xl">close</span>
             </div>
-            <ul v-if="mobileNav" class="mobilenavlink_div">
-                <li @click="home" :class="{active : Home}" class="navlink my-2"><a href="#home">Home</a></li>
-                <li @click="aboutus" :class="{active : Aboutus}" class="navlink my-2"><a href="#aboutus">About Us</a></li>
-                <li @click="features" :class="{active : Features}" class="navlink my-2"><a href="#features">Features</a></li>
-                <li @click="solution" :class="{active : Solution}" class="navlink my-2"><a href="#solution">Solution</a></li>
-            </ul>
+            <transition name="mobilenavlink_div">
+                <ul v-if="mobileNav" class="mobilenavlink_div">
+                    <li @click="home" :class="{active : Home}" class="navlink my-2"><a href="#home">Home</a></li>
+                    <li @click="aboutus" :class="{active : Aboutus}" class="navlink my-2"><a href="#aboutus">About Us</a></li>
+                    <li @click="features" :class="{active : Features}" class="navlink my-2"><a href="#features">Features</a></li>
+                    <li @click="solution" :class="{active : Solution}" class="navlink my-2"><a href="#solution">Solution</a></li>
+                </ul>
+            </transition>
         </div>
 
         <ul class="navlink_div">

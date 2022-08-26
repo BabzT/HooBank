@@ -1,10 +1,10 @@
 <template>
-    <div class="my-32 pt-10" id="solution">
+    <div class="md:my-32 my-16 pt-10" id="solution">
         <div class="solution">
-            <h1 class="about_head w-2/5">
+            <h1 class="about_head w-full md:w-2/5">
                 What people are saying about us
             </h1>
-            <p class="w-2/5 text-lg text-lightgray mt-5">
+            <p class="md:w-2/5 w-full text-lg text-lightgray mt-5">
                Everything you need to accept card payments and grow your business anywhere on the planet.
             </p>
         </div>
@@ -61,7 +61,7 @@
         </div>
 
         <div class="service">
-            <div class="w-3/5">
+            <div class="md:w-3/5 w-full">
                 <h1 class="about_head">
                     Let's try our service now!
                 </h1>
