@@ -49,11 +49,11 @@ html{
     @apply rotate-180 text-4xl
 }
 .navlink{
-    @apply text-lightgray hover:text-white transition ease-in-out duration-300
+    @apply text-lightgray font-medium hover:text-white transition ease-in-out duration-300
 }
 
 .active{
-    @apply text-white
+    @apply text-white font-medium
 }
 
 /* Home */

@@ -3,7 +3,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'mybank',
+    title: 'My Bank - Your Home',
     htmlAttrs: {
       lang: 'en'
     },
