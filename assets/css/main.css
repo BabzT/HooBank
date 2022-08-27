@@ -44,17 +44,19 @@ html{
 .mobilenavlink_div-leave-to{
     @apply opacity-0
 }
-
 .sort{
     @apply rotate-180 text-4xl
 }
 .navlink{
     @apply text-lightgray font-medium hover:text-white transition ease-in-out duration-300
 }
-
 .active{
     @apply text-white font-medium
 }
+.close{
+    @apply text-5xl font-extralight
+}
+
 
 /* Home */
 .home{

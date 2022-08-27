@@ -11,7 +11,7 @@
                     <div class="w-5 h-0.5 bg-lightblue my-1.5 rounded-2xl"></div>
                     <div class="w-7 h-0.5 bg-white rounded-2xl"></div>
                 </div>
-                <span v-else class="material-symbols-rounded text-4xl">close</span>
+                <span v-else class="close">&times;</span>
             </div>
             <transition name="mobilenavlink_div">
                 <ul v-if="mobileNav" class="mobilenavlink_div">
