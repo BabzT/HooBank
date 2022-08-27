@@ -34,7 +34,7 @@ html{
     @apply md:hidden relative
 }
 .mobilenavlink_div{
-  @apply absolute bg-gradient-to-br from-[#272727] to-[#11101D] w-28 p-3 rounded-2xl items-center justify-center right-0
+  @apply absolute bg-gradient-to-br from-[#272727] to-[#11101D] w-36 py-3 px-8  rounded-2xl text-justify right-0
 }
 .mobilenavlink_div-enter-active,
 .mobilenavlink_div-leave-active{
@@ -151,7 +151,10 @@ html{
     @apply w-fit flex items-center justify-between
 }
 .partners{
-    @apply w-11/12 h-20 my-0 mx-auto flex md:flex-nowrap flex-wrap items-center justify-between
+    @apply w-11/12 h-20 my-0 mx-auto md:flex  items-center justify-between
+}
+.partners_logo{
+    @apply flex items-center justify-between md:w-[45%] w-full
 }
 .partners img{
     @apply md:w-44 w-28

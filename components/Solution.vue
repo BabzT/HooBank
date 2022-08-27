@@ -54,10 +54,14 @@
         </div>
         
         <div class="partners">
-            <img src="~/assets/images/airbnb.png">
-            <img src="~/assets/images/binance.png">
-            <img src="~/assets/images/coinbase.png">
-            <img src="~/assets/images/dropbox.png">
+            <div class="partners_logo">
+                <img src="~/assets/images/airbnb.png">
+                <img src="~/assets/images/binance.png">
+            </div>
+            <div class="partners_logo mt-3 md:mt-0">
+                <img src="~/assets/images/coinbase.png">
+                <img src="~/assets/images/dropbox.png">
+            </div>
         </div>
 
         <div class="service">

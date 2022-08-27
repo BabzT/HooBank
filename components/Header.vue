@@ -6,7 +6,11 @@
         </div>
         <div class="mobile">
             <div class="menu" @click="menuToggle">
-                <span v-if="open" class="material-symbols-rounded sort">sort</span>
+                <div v-if="open" class="flex flex-col items-end">
+                    <div class="w-3 h-0.5 bg-white rounded-2xl"></div>
+                    <div class="w-5 h-0.5 bg-lightblue my-1.5 rounded-2xl"></div>
+                    <div class="w-7 h-0.5 bg-white rounded-2xl"></div>
+                </div>
                 <span v-else class="material-symbols-rounded text-4xl">close</span>
             </div>
             <transition name="mobilenavlink_div">
