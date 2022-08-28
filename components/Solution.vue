@@ -3,7 +3,7 @@
         <div  class="solution"
         data-aos="flip-left"
         data-aos-easing="ease-out-cubic"
-        data-aos-duration="2000">
+        data-aos-duration="1500">
             <h1 class="about_head w-full md:w-2/5">
                 What people are saying about us
             </h1>

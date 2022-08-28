@@ -106,7 +106,7 @@ html{
     @apply md:w-47 w-full
 }
 .about_head{
-    @apply md:text-5xl text-3xl font-semibold leading-normal
+    @apply md:text-5xl md:leading-normal text-3xl font-semibold leading-normal
 }
 .getstartedbtn{
     @apply text-lg text-black font-medium md:px-7 px-4 py-2 md:py-4 mt-10 w-fit rounded-lg bg-gradient-to-br from-[#DEF9FA] to-[#7DE7EB]
