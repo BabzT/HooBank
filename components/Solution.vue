@@ -1,6 +1,9 @@
 <template>
     <div class="md:my-32 my-16 pt-10" id="solution">
-        <div class="solution">
+        <div  class="solution"
+        data-aos="flip-left"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="2000">
             <h1 class="about_head w-full md:w-2/5">
                 What people are saying about us
             </h1>
@@ -53,7 +56,7 @@
             </div>
         </div>
         
-        <div class="partners">
+        <div data-aos="zoom-in-right" class="partners">
             <div class="partners_logo">
                 <img src="~/assets/images/airbnb.png">
                 <img src="~/assets/images/binance.png">
