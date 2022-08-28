@@ -1,6 +1,6 @@
 <template>
     <div class="aboutus" id="aboutus">
-        <div class="aboutus_secone">
+        <div data-aos="fade-up" class="aboutus_secone">
             <h1 class="about_head">
                 You do the business, we'll handle the money.
             </h1>
@@ -12,7 +12,7 @@
             </a>
         </div>
 
-        <div class="aboutus_sectwo">
+        <div data-aos="fade-up" class="aboutus_sectwo">
             <div class="about_feature">
                 <div class="feature_icon">
                     <img src="~/assets/images/star.png" alt="star">

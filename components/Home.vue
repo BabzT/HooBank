@@ -2,7 +2,7 @@
     <div class="home" id="home">
         <div class="home_main">
             <img class="absolute h-4/5 w-1/2 left-0 z-40" src="~/assets/images/ellipse.png">
-            <div class="home_secone">
+            <div data-aos="fade-up" class="home_secone">
                 <div class="discount">
                     <img src="~/assets/images/discount.png" alt="discount icon">
                     <p class="md:text-lg ml-1">20% 
@@ -24,13 +24,13 @@
                 </p>
             </div>
 
-            <div class="home_sectwo">
+            <div data-aos="fade-down" class="home_sectwo">
                 <img class="absolute right-0" src="~/assets/images/vector.png">
                 <img src="~/assets/images/bank.png" alt="banking">
             </div>
         </div>
             <a href="#"><img class="getstarted2" src="~/assets/images/getstarted.png" alt="getstarted"></a>
-        <div class="statistics">
+        <div data-aos="fade-up" class="statistics">
             <div class="stat">
                 <p class="stat_text">3800+</p>
                 <img src="~/assets/images/useractive.png" alt="">

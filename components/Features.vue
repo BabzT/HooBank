@@ -1,11 +1,11 @@
 <template>
     <div id="features" class="pt-8">
         <div class="mainfeature">
-            <div class="aboutus_secone mt-10 md:mt-0">
+            <div data-aos="zoom-in" class="aboutus_secone mt-10 md:mt-0">
                 <img src="~/assets/images/feature.png" alt="features">
             </div>
 
-            <div class="aboutus_secone">
+            <div data-aos="fade-down" class="aboutus_secone">
                 <h1 class="about_head">Easily control your billing & invoicing.</h1>
                 <p class="home_seconetext">
                     Elit enim sed massa etiam. Mauris eu adipiscing ultrices ametodio aenean neque. Fusce ipsum orci rhoncus aliporttitor integer platea placerat.
@@ -23,7 +23,7 @@
         </div>
 
         <div class="mainfeature2">
-            <div class="aboutus_secone">
+            <div data-aos="fade-down" class="aboutus_secone">
                 <h1 class="about_head">
                     Find a better card deal in few easy steps.
                 </h1>
@@ -35,7 +35,7 @@
                 </a>
             </div>
 
-            <div class="aboutus_secone mt-16">
+            <div data-aos="zoom-in" class="aboutus_secone mt-16">
                 <img src="~/assets/images/analysis.png" alt="analysis">
             </div>
         </div>
